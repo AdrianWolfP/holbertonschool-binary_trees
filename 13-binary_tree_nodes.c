@@ -5,7 +5,7 @@
  * Return: 0 if leaf, sum of nodes
  */
 
-size_t binary_tree_node(const binary_tree_t *tree)
+size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 	if (!tree)
 		return (0);
