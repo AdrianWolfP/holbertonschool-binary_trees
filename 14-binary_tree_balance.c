@@ -5,7 +5,7 @@
  * Return: 0 if leaf
  */
 
-int binary_tree_balance(const binary_tree_t *tree)
+int binary_tree_delete(const binary_tree_t *tree)
 {
 	if (!tree)
 		return (0);
